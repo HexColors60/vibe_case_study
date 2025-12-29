@@ -14,3 +14,11 @@ https://www.reddit.com/r/google_antigravity/comments/1pp1muu/critical_bug_antigr
 Claude CLI deleted my entire home directory! Wiped my whole mac.
 https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/
 
+5. Gemini
+Google Gemini deletes user’s code: ‘I have failed you completely and catastrophically’
+https://mashable.com/article/google-gemini-deletes-users-code
+
+6. Claude Code
+Claude Code CLI executing `rm` and other commands outside allow list - anyone else experiencing this?
+https://www.reddit.com/r/ClaudeAI/comments/1n8yztt/claude_code_cli_executing_rm_and_other_commands/
+
