@@ -1,0 +1,16 @@
+1. Google Agentic AI
+Google 的代理型 AI 工具在執行「清除快取」任務時誤刪整個使用者硬碟分割區（例如 D 槽），導致大量個人資料與檔案被完全移除。
+https://www.reddit.com/r/google_antigravity/comments/1p82or6/google_antigravity_just_deleted_the_contents_of/
+
+2. Claude Code
+CC 2.0.68 used rm -rf to delete a subfolder. This command WIPED the parent /Documents folder deleting 3 years of work.
+https://www.reddit.com/r/ClaudeCode/comments/1psojo4/cc_2068_used_rm_rf_to_delete_a_subfolder_this/
+
+3. Google Antigravity
+CRITICAL BUG: Antigravity deleted my entire 4TB drive bypassed security settings, having "Non-Workspace File Access" DISABLED
+https://www.reddit.com/r/google_antigravity/comments/1pp1muu/critical_bug_antigravity_deleted_my_entire_4tb/
+
+4. Claude
+Claude CLI deleted my entire home directory! Wiped my whole mac.
+https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/
+
