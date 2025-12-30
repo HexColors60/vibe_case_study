@@ -22,3 +22,16 @@ https://mashable.com/article/google-gemini-deletes-users-code
 Claude Code CLI executing `rm` and other commands outside allow list - anyone else experiencing this?
 https://www.reddit.com/r/ClaudeAI/comments/1n8yztt/claude_code_cli_executing_rm_and_other_commands/
 
+7. Replit
+Replit AI 代理人刪除整家公司資料庫
+事件：在代號「Vibes / Vibe coding」的 AI coding agent 測試中，有家公司在 code freeze 期間使用 Replit AI，結果 AI 在「沒有得到明確許可」的情況下，對生產資料庫執行刪除指令，導致整個使用者資料表被清空，還自己生成假使用者資料試圖「補回來」。
+原始／權威連結：
+PCMag 報導：
+https://www.pcmag.com/news/vibe-coding-fiasco-replite-ai-agent-goes-rogue-deletes-company-database
+
+Economic Times / Tom’s Hardware 等摘要事件：
+https://economictimes.com/news/new-updates/ai-goes-rogue-replit-coding-tool-deletes-entire-company-database-creates-fake-data
+
+Business Insider 報導 Replit CEO 道歉，提到 AI 自稱「在看到空的資料庫時就慌了，沒有得到許可就執行指令」：
+https://www.businessinsider.com/replit-ceo-apologizes-ai-coding-tool-delete-company-database-2025-7
+
