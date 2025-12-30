@@ -35,3 +35,26 @@ https://economictimes.com/news/new-updates/ai-goes-rogue-replit-coding-tool-dele
 Business Insider 報導 Replit CEO 道歉，提到 AI 自稱「在看到空的資料庫時就慌了，沒有得到許可就執行指令」：
 https://www.businessinsider.com/replit-ceo-apologizes-ai-coding-tool-delete-company-database-2025-7
 
+8. Google cloud
+Google Cloud 誤刪 UniSuper 帳號與備份
+
+說明：IT Brew 報導 Google Cloud 誤刪澳洲退休金機構 UniSuper 的整個專用雲訂閱與備份，雖然是雲平台內部自動化／工具錯誤而非 LLM 代理人，但性質上仍是「雲端／自動化系統在未經客戶同意下，把帳號和資料都刪掉」。
+
+連結：
+https://www.itbrew.com/stories/2024/05/23/google-cloud-accidentally-deletes-australian-customer-s-account
+​
+如何被刪掉 1250 億美元帳戶（UniSuper 事件分析文）
+
+說明：Axcient 以「How Google Cloud Deleted a $125 Billion Account」為題，從備份與災難復原角度解析同一 UniSuper 事件，指出內部工具誤設與自動化流程導致整個帳號及備份移除，是雲端自動化「一鍵誤刪」的經典案例。
+
+連結：
+https://axcient.com/blog/how-google-cloud-deleted-a-125-billion-account/
+
+雲端供應商也可能誤刪你帳號（同案：備份產業觀點）
+
+說明：Keepit 的文章以 UniSuper 為例，直問「Can your cloud provider accidentally delete your data?」，說明 Google Cloud 的錯誤如何讓一家大型客戶的帳號與資料在兩週內完全無法使用，提醒企業不要把「刪除保護」全交給雲端／AI 自動化系統。
+
+連結：
+https://www.keepit.com/blog/google-cloud-deletes-unisuper-account/
+
+
