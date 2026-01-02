@@ -1,0 +1,4 @@
+1.
+Found a hardcoded OpenAI key in a vibe-coded app. Took 30 seconds.
+https://www.reddit.com/r/vibecoding/comments/1q12ceq/found_a_hardcoded_openai_key_in_a_vibecoded_app/
+
