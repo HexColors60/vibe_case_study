@@ -1,0 +1,3 @@
+1.
+tested glm 4.7 for coding projects past week, comparison with deepseek and qwen
+https://www.reddit.com/r/LocalLLM/comments/1q1huik/tested_glm_47_for_coding_projects_past_week/
