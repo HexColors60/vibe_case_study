@@ -10,6 +10,9 @@ amrit110.github.io/oli/
 https://users.rust-lang.org/t/crustly-tui-ai-coding-assistant-in-rust/135004/3
 Crustly -TUI AI Coding Assistant in Rust
 
+https://github.com/jyjeanne/crustly
+
+
 3. 
 https://github.com/graniet/llm
 A powerful Rust library and CLI tool to unify and orchestrate multiple LLM, Agent and voice backends (OpenAI, Claude, Gemini, Ollama, ElevenLabs...) with a single, extensible API. Build, chain, evaluate, and serve complex multi-step AI workflows — including speech-to-text, text-to-speech, completions, vision, and reasoning.
@@ -20,4 +23,32 @@ About
 [Unmaintained, see README] An ecosystem of Rust libraries for working with large language models
 
 docs.rs/llm/latest/llm/
+
+5. 
+https://github.com/liquidos-ai/AutoAgents
+A multi-agent framework written in Rust that enables you to build, deploy, and coordinate multiple intelligent agents
+
+liquidos-ai.github.io/AutoAgents/
+
+6.
+https://docs.rs/agentai/latest/agentai/
+AgentAI
+AgentAI is a Rust library designed to simplify the creation of AI agents. It leverages the GenAI library to interface with a wide range of popular Large Language Models (LLMs), making it versatile and powerful. Written in Rust, AgentAI benefits from strong static typing and robust error handling, ensuring reliable and maintainable code. Whether you’re developing simple or complex AI agents, AgentAI provides a streamlined and efficient development process.
+
+Features
+Connect to any major LLM provider: Support for OpenAI, Anthropic, Gemini, Ollama, and other OpenAI-compatible APIs.
+Choose the right model for the job: Flexibly select the best-suited model for each step in your agent’s workflow.
+Build custom tools with ease: A simple interface for creating and managing your own tools using the ToolBox.
+MCP Server Support: Leverage existing solutions based on the Model-Context-Protocol, eliminating the need to build agent tools from scratch.
+Structured Output: No need to parse raw text from model, just provide structure, and AI agent will provide response in defined format.
+
+7.
+https://www.rig.rs/
+https://github.com/0xPlaygrounds/rig/tree/main/rig/rig-core/examples
+
+8.
+https://lowcoderust.com/
+
+9.
+https://github.com/lbjlaq/Antigravity-Manager
 
