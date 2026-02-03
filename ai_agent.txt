@@ -52,3 +52,11 @@ https://lowcoderust.com/
 9.
 https://github.com/lbjlaq/Antigravity-Manager
 
+10.
+https://githubnext.com/projects/continuous-ai/
+https://github.com/continuedev/continue
+
+11.
+https://github.com/agent0ai/agent-zero
+
+
