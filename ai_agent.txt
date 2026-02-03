@@ -1,0 +1,23 @@
+1. 
+https://github.com/amrit110/oli/tree/main
+
+About
+A simple, fast terminal based AI coding assistant
+
+amrit110.github.io/oli/
+
+2.
+https://users.rust-lang.org/t/crustly-tui-ai-coding-assistant-in-rust/135004/3
+Crustly -TUI AI Coding Assistant in Rust
+
+3. 
+https://github.com/graniet/llm
+A powerful Rust library and CLI tool to unify and orchestrate multiple LLM, Agent and voice backends (OpenAI, Claude, Gemini, Ollama, ElevenLabs...) with a single, extensible API. Build, chain, evaluate, and serve complex multi-step AI workflows — including speech-to-text, text-to-speech, completions, vision, and reasoning.
+
+4.
+https://github.com/rustformers/llm
+About
+[Unmaintained, see README] An ecosystem of Rust libraries for working with large language models
+
+docs.rs/llm/latest/llm/
+
