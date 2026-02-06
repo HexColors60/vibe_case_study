@@ -184,6 +184,16 @@ System + User + Tools Prompt
 工具输出裁剪 vs 信息丢失
 
 7.
+https://lqhl.me/blog/claude-code-history/
+解构 Claude Code：一次版本间的进化之旅 (v1.0.0 vs v1.0.72)
+https://github.com/badlogic/cchistory
+https://mariozechner.at/posts/2025-08-03-cchistory/
+cchistory: Tracking Claude Code System Prompt and Tool Changes
+2025-08-03
+
+8.
+https://mariozechner.at/posts/2025-11-30-pi-coding-agent/
+What I learned building an opinionated and minimal coding agent
 
 
 
