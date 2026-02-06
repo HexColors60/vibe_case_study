@@ -1,0 +1,6 @@
+1.
+  https://ainext.tw/posts/20251225-context-engineering-coding-agents/
+  https://youtu.be/rmvDxxNubIg
+  本文整理自 AI Engineer World’s Fair 2025 的演講「No Vibes Allowed: Solving Hard Problems in Complex Codebases」
+
+
