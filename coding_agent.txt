@@ -195,5 +195,10 @@ cchistory: Tracking Claude Code System Prompt and Tool Changes
 https://mariozechner.at/posts/2025-11-30-pi-coding-agent/
 What I learned building an opinionated and minimal coding agent
 
+9.
+https://www.youtube.com/watch?v=rmvDxxNubIg
+
+No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer
+
 
 
