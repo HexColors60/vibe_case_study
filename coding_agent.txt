@@ -154,6 +154,36 @@ It seems pretty well-accepted that AI coding tools struggle with real production
 A lot of the "extra code" shipped by AI tools ends up just reworking the slop that was shipped last week.
 Coding agents are great for new projects or small changes, but in large established codebases, they can often make developers less productive.
 
+6.
+https://www.infoq.cn/article/3ajq0utjorho6sitltgp
+https://qcon.infoq.cn/2025/shanghai/presentation/6749
+演讲：为 Coding Agent 构建智能上下文：Qoder 的 Context Engineering 实践
+ChatBot 时代“ Prompt 决定效果”；24 年底 Agent 形态爆发，单任务动辄几十上百次工具调用，动态上下文体量指数级膨胀，传统逐轮裁剪导致 Prompt Cache 失效、成本激增。Qoder 将上下文拆为静态 Prompt 与动态 Action/Observation，融合代码库分析、开发者行为感知、执行反馈、和网络实时信息获取四大维度，按“保留完整历史 + 工具输出精细裁剪 + Todo 持续引导”策略组装，配合 Prompt Cache 与错误回溯保留，实现 90% 延迟下降、5-20% 成本压缩，任务完成度和效果大幅度提升。本次演讲我将分享 Qoder 的 Context Engineering 实践。
+
+演讲提纲
+
+1. 静态上下文（Static Context）
+
+System + User + Tools Prompt
+2. 动态上下文（Dynamic Context）
+
+基于代码库的上下文（Context From Codebase）
+基于开发者行为的上下文（Context From Behavior）
+基于执行反馈的上下文（Context From Execution）
+基于互联网内容的上下文（Context From Internet）
+3. 上下文组装的策略与实践
+
+前缀保持稳定，最大化 Prompt Cache
+多粒度语义蒸馏与重组
+认知焦点持续性牵引
+超限场景下的弹性降载
+先验错误 & 过程错误的注入
+您认为，这样的技术在实践过程中有哪些痛点？
+
+缓存命中 vs 长上下文腐化
+工具输出裁剪 vs 信息丢失
+
+7.
 
 
 
