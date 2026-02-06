@@ -136,4 +136,11 @@ Plugins
 
 這看起來很多功能，但目前正處於「風暴期（storming）」；未來勢必會收斂成較簡單的一組功能。我預期 Skills 可能不只會吸收 slash commands，甚至也會整合 rules，讓整個表格少掉兩列。
 
+3.
+https://www.youtube.com/watch?v=IS_y40zY-hc
+
+Advanced Context Engineering for Agents
+
+
+
 
