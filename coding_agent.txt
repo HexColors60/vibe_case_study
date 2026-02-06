@@ -141,6 +141,19 @@ https://www.youtube.com/watch?v=IS_y40zY-hc
 
 Advanced Context Engineering for Agents
 
+4. 
+https://www.hubwiz.com/blog/design-decisions-for-building-an-ai-coding-agent/
+一个AI编程代理的设计决策
+pi-coding-agent的作者Mario Zechner详细介绍了他在开发这个AI编程代理的过程中的各种设计决策，例如不支持MCP等。
+
+5.
+https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md
+Getting AI to Work in Complex Codebases
+It seems pretty well-accepted that AI coding tools struggle with real production codebases. The Stanford study on AI's impact on developer productivity found:
+
+A lot of the "extra code" shipped by AI tools ends up just reworking the slop that was shipped last week.
+Coding agents are great for new projects or small changes, but in large established codebases, they can often make developers less productive.
+
 
 
 
