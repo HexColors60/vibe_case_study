@@ -3,4 +3,137 @@
   https://youtu.be/rmvDxxNubIg
   本文整理自 AI Engineer World’s Fair 2025 的演講「No Vibes Allowed: Solving Hard Problems in Complex Codebases」
 
+2. https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html
+    用於程式設計代理的情境工程（Context Engineering for Coding Agents）
+
+Birgitta Böckeler
+Birgitta 是 Thoughtworks 的傑出工程師（Distinguished Engineer）與 AI 輔助交付專家，擁有超過 20 年軟體開發者、架構師與技術領導者的經驗。
+
+本文是《Exploring Gen AI》系列的一部分，該系列記錄了 Thoughtworks 技術人員對生成式 AI 技術在軟體開發中應用的探索。'
+範例：Claude Code
+
+以下是截至 2026 年 1 月，Claude Code 的情境設定功能概覽，以及它們在上述維度中的定位：
+
+CLAUDE.md
+
+類型：指引
+
+誰使用：Claude Code（每個 session 一開始必定載入）
+
+適用時機：整個專案中最常反覆出現的一般性慣例
+
+範例：
+-「我們使用 yarn，不使用 npm」
+-「執行任何指令前，別忘了啟用虛擬環境」
+-「重構時不考慮向後相容性」
+
+備註：幾乎所有程式設計輔助工具都有這種主規則檔，並正嘗試標準化為 AGENTS.md
+
+Rules
+
+類型：指引
+
+何時載入：當設定路徑下的檔案被載入時
+
+用途：模組化指引、降低 CLAUDE.md 的常駐大小；可依檔案類型（如 *.ts）限定載入時機
+
+範例：
+-「撰寫 bash script 時，變數應使用 ${var} 而非 $var」（路徑：**/*.sh）
+
+備註：越來越多工具支援這種基於路徑的規則（如 GitHub Copilot、Cursor）
+
+Slash commands
+
+類型：指令
+
+誰觸發：人類
+
+用途：你想手動觸發的常見任務（review、commit、test…）
+
+狀態：Claude Code 中已棄用，改由 Skills 取代
+
+Skills
+
+類型：指引、指令、文件、腳本等
+
+誰觸發：LLM 或人類
+
+用途：僅在需要時才「延遲載入」的情境；可包含額外資源與腳本
+
+範例：
+
+JIRA 存取方式
+
+React 元件撰寫慣例
+
+XYZ API 整合說明
+
+備註：Cursor 也正轉向類似 Claude Code 的 Skills 設計
+
+Subagents
+
+類型：指令＋模型與工具設定（獨立情境視窗，可平行）
+
+用途：
+
+適合獨立執行的大型任務
+
+想用不同模型完成的任務
+
+僅在特定任務中才需要的工具或 MCP server
+
+可編排的工作流程
+
+範例：
+
+為剛完成的功能建立完整 E2E 測試
+
+用不同模型做第二次 code review
+
+備註：對 swarm 類實驗（如 claude-flow、Gas Town）是基礎功能
+
+MCP Servers
+
+類型：程式（透過 Model Context Protocol）
+
+誰觸發：LLM
+
+用途：讓代理能呼叫 API 或操作你機器上的工具
+
+範例：
+
+JIRA API 存取
+
+瀏覽器操作（如 Playwright MCP）
+
+本機知識庫存取
+
+備註：目前主流程式設計輔助工具都已支援
+
+Hooks
+
+類型：腳本
+
+觸發時機：Claude Code 生命週期事件
+
+用途：在特定事件點「每次都確定發生」的行為
+
+範例：
+
+自訂通知
+
+每次編輯 JS 檔後自動跑 prettier
+
+記錄所有執行過的指令
+
+備註：仍屬少見功能，Cursor 近期才開始支援
+
+Plugins
+
+類型：分發機制
+
+用途：在組織內分享共用的指令、skills、hooks 設定
+
+這看起來很多功能，但目前正處於「風暴期（storming）」；未來勢必會收斂成較簡單的一組功能。我預期 Skills 可能不只會吸收 slash commands，甚至也會整合 rules，讓整個表格少掉兩列。
+
 
